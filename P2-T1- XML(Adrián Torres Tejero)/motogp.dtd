@@ -1,0 +1,24 @@
+<!ELEMENT MotoGP (Escuderia+, Piloto+, Moto+)>
+<!ELEMENT Escuderia (Nombre, Bandera?, Pilotos, Motos)>
+	<!ATTLIST Escuderia id ID #REQUIRED>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Bandera EMPTY>
+	<!ATTLIST Bandera formato (JPG | PNG) #REQUIRED>
+	<!ATTLIST Bandera url CDATA #IMPLIED>
+<!ELEMENT Pilotos EMPTY>
+	<!ATTLIST Pilotos idrefs IDREFS #REQUIRED>
+<!ELEMENT Motos EMPTY>
+	<!ATTLIST Motos idrefs IDREFS #REQUIRED>
+<!ELEMENT Piloto (Nombre, FechaNacimiento, AñoDebutMotoGP, PodiosTotales)>
+	<!ATTLIST Piloto id ID #REQUIRED>
+	<!ATTLIST Piloto escuderia IDREF #REQUIRED>
+	<!ATTLIST Piloto moto IDREF #REQUIRED>
+<!ELEMENT FechaNacimiento (#PCDATA)>
+<!ELEMENT AñoDebutMotoGP (#PCDATA)>
+<!ELEMENT PodiosTotales (#PCDATA)>
+<!ELEMENT Moto (Marca, Modelo, Colores)>
+	<!ATTLIST Moto id ID #REQUIRED>
+	<!ATTLIST Moto escuderia IDREF #REQUIRED>
+<!ELEMENT Marca (#PCDATA)>
+<!ELEMENT Modelo (#PCDATA)>
+<!ELEMENT Colores (#PCDATA)>

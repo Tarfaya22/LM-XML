@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MotoGP SYSTEM "motogp.dtd">
+<MotoGP>
+    <Escuderia id="duc">
+        <Nombre>Ducati Team</Nombre>
+        <Bandera formato="JPG" url="ducati_bandera.jpg"/>
+        <Pilotos idrefs="p1 p2"/>
+        <Motos idrefs="m1 m2"/>
+    </Escuderia>
+    <Escuderia id="apr">
+        <Nombre>Aprilia Racing Team</Nombre>
+        <Bandera formato="PNG" url="april_bandera.png"/>
+        <Pilotos idrefs="p3 p4"/>
+        <Motos idrefs="m3 m4"/>
+    </Escuderia>
+    <Escuderia id="hon">
+        <Nombre>Repsol Honda Team</Nombre>
+        <Pilotos idrefs="p5 p6"/>
+        <Motos idrefs="m5 m6"/>
+    </Escuderia>
+
+    <Piloto id="p1" escuderia="duc" moto="m1">
+        <Nombre>Francesco Bagnaia</Nombre>
+        <FechaNacimiento>14/01/1996</FechaNacimiento>
+        <AñoDebutMotoGP>2018</AñoDebutMotoGP>
+        <PodiosTotales>30</PodiosTotales>
+    </Piloto>
+    <Piloto id="p2" escuderia="duc" moto="m2">
+        <Nombre>Marc Márquez</Nombre>
+        <FechaNacimiento>17/02/1993</FechaNacimiento>
+        <AñoDebutMotoGP>2013</AñoDebutMotoGP>
+        <PodiosTotales>100</PodiosTotales>
+    </Piloto>
+    <Piloto id="p3" escuderia="apr" moto="m3">
+        <Nombre>Jorge Martín</Nombre>
+        <FechaNacimiento>28/01/1997</FechaNacimiento>
+        <AñoDebutMotoGP>2018</AñoDebutMotoGP>
+        <PodiosTotales>15</PodiosTotales>
+    </Piloto>
+    <Piloto id="p4" escuderia="apr" moto="m4">
+        <Nombre>Marco Bezzecchi</Nombre>
+        <FechaNacimiento>18/11/1998</FechaNacimiento>
+        <AñoDebutMotoGP>2021</AñoDebutMotoGP>
+        <PodiosTotales>5</PodiosTotales>
+    </Piloto>
+    <Piloto id="p5" escuderia="hon" moto="m5">
+        <Nombre>Fermín Aldeguer</Nombre>
+        <FechaNacimiento>25/03/2004</FechaNacimiento>
+        <AñoDebutMotoGP>2023</AñoDebutMotoGP>
+        <PodiosTotales>2</PodiosTotales>
+    </Piloto>
+    <Piloto id="p6" escuderia="hon" moto="m6">
+        <Nombre>Alex Márquez</Nombre>
+        <FechaNacimiento>23/04/1996</FechaNacimiento>
+        <AñoDebutMotoGP>2019</AñoDebutMotoGP>
+        <PodiosTotales>8</PodiosTotales>
+    </Piloto>
+
+    <Moto id="m1" escuderia="duc">
+        <Marca>Ducati</Marca>
+        <Modelo>Desmosedici GP24</Modelo>
+        <Colores>Rojo, Blanco, Negro</Colores>
+    </Moto>
+    <Moto id="m2" escuderia="duc">
+        <Marca>Ducati</Marca>
+        <Modelo>Desmosedici GP24</Modelo>
+        <Colores>Rojo, Blanco, Negro</Colores>
+    </Moto>
+    <Moto id="m3" escuderia="apr">
+        <Marca>Aprilia</Marca>
+        <Modelo>RS-GP</Modelo>
+        <Colores>Negro, Rojo, Gris</Colores>
+    </Moto>
+    <Moto id="m4" escuderia="apr">
+        <Marca>Aprilia</Marca>
+        <Modelo>RS-GP</Modelo>
+        <Colores>Negro, Rojo, Gris</Colores>
+    </Moto>
+    <Moto id="m5" escuderia="hon">
+        <Marca>Honda</Marca>
+        <Modelo>RC213V</Modelo>
+        <Colores>Naranja, Azul, Blanco</Colores>
+    </Moto>
+    <Moto id="m6" escuderia="hon">
+        <Marca>Honda</Marca>
+        <Modelo>RC213V</Modelo>
+        <Colores>Naranja, Azul, Blanco</Colores>
+    </Moto>
+</MotoGP>
